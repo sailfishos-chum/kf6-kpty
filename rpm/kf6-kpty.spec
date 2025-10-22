@@ -34,7 +34,7 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
-%autosetup -n %{framework}-%{version} -p1
+%autosetup -n %{name}-%{version}/upstream -p1
 
 %build
 # If seems to, for some reason, not find utempter without the following:
