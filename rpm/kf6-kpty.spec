@@ -39,11 +39,10 @@ developing applications that use %{name}.
 %build
 # If seems to, for some reason, not find utempter without the following:
 %cmake_kf6 -DUTEMPTER_EXECUTABLE:PATH=/usr/libexec/utempter/utempter
-%cmake_build_kf6
+%cmake_build
 
 %install
-%cmake_install_kf6
-
+%cmake_install
 %find_lang %{name} --all-name --with-man
 
 %files -f %{name}.lang
