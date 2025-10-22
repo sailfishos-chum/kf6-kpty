@@ -48,6 +48,7 @@ developing applications that use %{name}.
 %files -f %{name}.lang
 %doc README.md
 %license LICENSES/*.txt
+%{_kf6_datadir}/qlogging-categories6/*categories
 %{_kf6_libdir}/libKF6Pty.so.*
 
 %files devel
