@@ -1,7 +1,7 @@
-%global kf_version 6.28.0
+%global kf_version 6.24.0
 
 Name:           kf6-kpty
-Version: 6.28.0
+Version: 6.24.0
 Release:        0%{?dist}
 Summary:        KDE Frameworks 6 Tier 2 module providing Pty abstraction
 
